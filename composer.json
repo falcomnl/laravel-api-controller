@@ -33,9 +33,6 @@
             "providers": [
                 "Falcomnl\\LaravelApiController\\LaravelApiControllerServiceProvider"
             ]
-        },
-        "branch-alias": {
-            "dev-master": "1.0-dev"
         }
     }
 }
