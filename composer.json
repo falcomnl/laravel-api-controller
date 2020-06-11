@@ -14,12 +14,8 @@
             "Falcomnl\\LaravelApiController\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Falcomnl\\LaravelApiController\\Tests\\": "tests/"
-        }
-    },
     "require": {
+        "php": ">=7.2",
         "laravel/framework": "^5.0",
         "laravel/passport": "^7.4",
         "spatie/eloquent-sortable": "^3.8",
@@ -28,6 +24,8 @@
     "require-dev": {
 
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "extra": {
         "laravel": {
             "providers": [
