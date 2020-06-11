@@ -2,7 +2,7 @@
     "name": "falcomnl/laravel-api-controller",
     "description": "Quick and easy API's",
     "type": "library",
-    "license": "Private",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mathijs Mossink",
