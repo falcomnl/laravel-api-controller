@@ -14,6 +14,7 @@ use Spatie\QueryBuilder\QueryBuilder;
 /**
  * Class ApiResourceController
  * @package App\Http\Controllers\Api
+ * @ todo $appends vs $allowed_appends
  */
 class ApiResourceController extends ApiController {
 
@@ -210,7 +211,7 @@ class ApiResourceController extends ApiController {
 
     protected function _isAllowed(string $operation): bool
     {
-        if($this->allowed_operations[0] == '*') return true;
+        if(count($this->allowed_operations) > 0 && $this->allowed_operations[0] == '*') return true;
 
         return in_array(
             strtolower($operation),
